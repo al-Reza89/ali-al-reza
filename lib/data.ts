@@ -37,6 +37,7 @@ export const experiencesData = [
   {
     title: "Graduated bootcamp",
     location: "Miami, FL",
+
     description:
       "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
     icon: React.createElement(LuGraduationCap),
@@ -63,6 +64,8 @@ export const experiencesData = [
 export const projectsData = [
   {
     title: "CorpComment",
+    url: "url.com",
+    gitUrl: "git.com",
     description:
       "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],

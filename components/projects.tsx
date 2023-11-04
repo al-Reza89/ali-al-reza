@@ -14,15 +14,21 @@ export default function Projects() {
     <section ref={ref} id="projects" className="scroll-mt-28 mb-28">
       <SectionHeading>My projects</SectionHeading>
       <Tabs defaultValue="web-project" className="w-full">
-        <TabsList className="w-full flex justify-between items-center ">
-          <TabsTrigger className="w-full" value="web-project">
-            web-project
+        <TabsList className="w-full flex mb-7  justify-between items-center ">
+          <TabsTrigger
+            className="w-full uppercase font-bold "
+            value="web-project"
+          >
+            web project
           </TabsTrigger>
-          <TabsTrigger className="w-full" value="ml-project">
-            ml-project
+          <TabsTrigger
+            className="w-full  uppercase font-bold"
+            value="ml-project"
+          >
+            ml project
           </TabsTrigger>
-          <TabsTrigger className="w-full" value="androied">
-            Androied
+          <TabsTrigger className="w-full  uppercase font-bold" value="androied">
+            android
           </TabsTrigger>
         </TabsList>
         <TabsContent value="web-project">
