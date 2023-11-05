@@ -801,7 +801,7 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react-vertical-timeline-component@^3.3.3":
+"@types/react-vertical-timeline-component@^3.3.5":
   version "3.3.5"
   resolved "https://registry.yarnpkg.com/@types/react-vertical-timeline-component/-/react-vertical-timeline-component-3.3.5.tgz#c5188e30abddb71070fd2947897e7d437949048f"
   integrity sha512-oduBHTmC+eRfJL+aZXfxurljtNpRlqfU+Vt6OzYfyprAIkcFY+GGAho/ZqUNk1KY3H2wy8hzyHjjaTZusYwZlw==
