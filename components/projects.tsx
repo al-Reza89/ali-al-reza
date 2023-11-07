@@ -2,7 +2,7 @@
 
 import React from "react";
 import SectionHeading from "./section-heading";
-import { projectsData, projectsDataMl } from "@/lib/data";
+import { projectsData, projectsDataAn, projectsDataMl } from "@/lib/data";
 import Project from "./project";
 import { useSectionInView } from "@/lib/hooks";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -27,7 +27,7 @@ export default function Projects() {
           >
             ml project
           </TabsTrigger>
-          <TabsTrigger className="w-full  uppercase font-bold" value="androied">
+          <TabsTrigger className="w-full  uppercase font-bold" value="android">
             android
           </TabsTrigger>
         </TabsList>
@@ -49,13 +49,14 @@ export default function Projects() {
             ))}
           </div>
         </TabsContent>
-        <TabsContent value="androied">
-          <div>
-            {projectsDataMl.map((project, index) => (
+        <TabsContent value="android">
+          <div className="w-[45rem] px-3">
+            {/* {projectsDataAn.map((project, index) => (
               <React.Fragment key={index}>
                 <Project {...project} />
               </React.Fragment>
-            ))}
+            ))} */}
+            No Project yet.
           </div>
         </TabsContent>
       </Tabs>
