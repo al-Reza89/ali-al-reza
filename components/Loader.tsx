@@ -15,22 +15,22 @@ const Loader = () => {
     pb-5
     "
     >
-      <BarLoader color="#36d7b7" height={15} width={700} />
-      <BarLoader color="#36d7b7" height={15} width={700} />
-      <BarLoader color="#36d7b7" height={15} width={700} />
-      <BarLoader color="#36d7b7" height={15} width={700} />
-      <BarLoader color="#36d7b7" height={15} width={700} />
-      <BarLoader color="#36d7b7" height={15} width={700} />
-      <BarLoader color="#36d7b7" height={15} width={700} />
-      <BarLoader color="#36d7b7" height={15} width={700} />
-      <BarLoader color="#36d7b7" height={15} width={700} />
-      <BarLoader color="#36d7b7" height={15} width={700} />
-      <BarLoader color="#36d7b7" height={15} width={700} />
-      <BarLoader color="#36d7b7" height={15} width={700} />
-      <BarLoader color="#36d7b7" height={15} width={700} />
-      <BarLoader color="#36d7b7" height={15} width={700} />
-      <BarLoader color="#36d7b7" height={15} width={700} />
-      <BarLoader color="#36d7b7" height={15} width={700} />
+      <BarLoader color="#36d7b7" height={17} width={700} />
+      <BarLoader color="#36d7b7" height={17} width={700} />
+      <BarLoader color="#36d7b7" height={17} width={700} />
+      <BarLoader color="#36d7b7" height={17} width={700} />
+      <BarLoader color="#36d7b7" height={17} width={700} />
+      <BarLoader color="#36d7b7" height={17} width={700} />
+      <BarLoader color="#36d7b7" height={17} width={700} />
+      <BarLoader color="#36d7b7" height={17} width={700} />
+      <BarLoader color="#36d7b7" height={17} width={700} />
+      <BarLoader color="#36d7b7" height={17} width={700} />
+      <BarLoader color="#36d7b7" height={17} width={700} />
+      <BarLoader color="#36d7b7" height={17} width={700} />
+      <BarLoader color="#36d7b7" height={17} width={700} />
+      <BarLoader color="#36d7b7" height={17} width={700} />
+      <BarLoader color="#36d7b7" height={17} width={700} />
+      <BarLoader color="#36d7b7" height={17} width={700} />
     </div>
   );
 };
