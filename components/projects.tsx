@@ -50,13 +50,13 @@ export default function Projects() {
           </div>
         </TabsContent>
         <TabsContent value="android">
-          <div className="w-[45rem] px-3">
+          <div className="max-w-[45rem] px-3">
             {/* {projectsDataAn.map((project, index) => (
               <React.Fragment key={index}>
                 <Project {...project} />
               </React.Fragment>
             ))} */}
-            No Project yet.
+            <div className="sm:w-[45rem]  ">No Project yet.</div>
           </div>
         </TabsContent>
       </Tabs>

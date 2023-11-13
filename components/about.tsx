@@ -19,8 +19,8 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        I am currently pursuing my final year as a student in BSc. in computer
-        science and technology at Shahjalal University of Science and Technology
+        I am currently pursuing my final year as a student in BSc. in Computer
+        Science and Technology at Shahjalal University of Science and Technology
         (SUST). During my time at university, I've had the privilege of engaging
         in various academic and extracurricular activities. As a student, I've
         not only excelled in my coursework but also actively contributed to the

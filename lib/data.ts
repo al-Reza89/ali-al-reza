@@ -10,7 +10,7 @@ import gym from "@/public/gym.png";
 import booking from "@/public/booking.png";
 import game from "@/public/game.png";
 import boston from "@/public/boston.png";
-import heckthon from "@/public/heckthon.png";
+import hackathon from "@/public/hackathon.png";
 import genre from "@/public/genre.png";
 import thesisWeb from "@/public/thesisWeb.png";
 import thesisModel from "@/public/thesisModel.png";
@@ -47,7 +47,8 @@ export const experiencesData = [
   {
     title: "Front-End Developer",
     location: "",
-    description: "Learning front end development starting with heml,css and js",
+    description:
+      "Learning front end development starting with html, css and js",
     icon: React.createElement(CgWorkAlt),
     date: "2021 - 2023",
   },
@@ -55,7 +56,7 @@ export const experiencesData = [
     title: "Graduation",
     location: "SUST,Sylhet",
     description:
-      "I am currently final year student of SUST. My achademic subject is Computer Science and Technology",
+      "I am currently final year student of SUST. My academic subject is Computer Science and Engineering",
     icon: React.createElement(LuGraduationCap),
     date: "2023",
   },
@@ -188,9 +189,9 @@ export const projectsDataMl = [
     url: "",
     gitUrl: "https://github.com/faridulreza/hackathon-we",
     description:
-      "This is our heckthon project, A tool for detecting mind wandering in real-time during online activities such as classes or meetings.",
+      "This is our hackathon project, A tool for detecting mind wandering in real-time during online activities such as classes or meetings.",
     tags: ["Machine Learning", "React", "Python", "Chrome Extensions"],
-    imageUrl: heckthon,
+    imageUrl: hackathon,
   },
   {
     title: "Book Genre Classification",
